@@ -1,15 +1,16 @@
-package vending;
+package vms.vmsconfig;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 @EnableConfigServer
 @SpringBootApplication
-public class ConfigServerApp {
-	
+public class VmsConfigApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(ConfigServerApp.class, args);
+		SpringApplication.run(VmsConfigApplication.class, args);
 	}
+
 }
+
